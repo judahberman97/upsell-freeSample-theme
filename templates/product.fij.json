@@ -1,0 +1,290 @@
+{
+  "sections": {
+    "zp-product-header-content": {
+      "type": "product-header-content-zipifypages",
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "product_show_vendor": false,
+            "show_rating": true,
+            "show_rating_count": false
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "variant_form": "auto",
+            "show_quantity": true,
+            "show_offer_quantity": false,
+            "enable_payment_button": true,
+            "subscriptions_enable_selectors": false,
+            "show_remaining": false,
+            "show_remaining_style": "low",
+            "countdown": 10,
+            "info_page": ""
+          }
+        },
+        "f894ebb3-0a7f-48f2-a057-e09d37adad9e": {
+          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "credit-promotion-auto-size",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "light",
+            "topPadding": "0",
+            "bottomPadding": "0"
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "read_more": false,
+            "enable_description": true,
+            "icon_description": "",
+            "style": "accordions",
+            "title_1": "how to use",
+            "icon_name_1": "",
+            "raw_content_1": "<p>1-STEP RITUAL: Apply a dime sized amount to your face and décolletage in the morning and evening to keep skin balanced and hydrated. <\/p><p>MULTI-STEP RITUAL:  Apply a dime sized amount to your face and décolletage before applying serums, oils or SPF. <\/p>",
+            "title_2": "made without",
+            "icon_name_2": "",
+            "raw_content_2": "<p>lab-made fragrances, parabens, sulfates, formaldehyde, phthalates, silicones, lanolin, petrolatum, propylene glycol, PEGs, gluten and more. Read our full <a href=\"https:\/\/miamibeachbum.com\/blogs\/behind-the-bum\/our-never-gonna-happen-list\"><span style=\"text-decoration:underline\">No List. <\/span><\/a><\/p>",
+            "title_3": "",
+            "icon_name_3": "",
+            "raw_content_3": "<p><\/p>",
+            "title_4": "",
+            "icon_name_4": "",
+            "raw_content_4": "<p><\/p>",
+            "title_5": "",
+            "icon_name_5": "",
+            "raw_content_5": "<p><\/p>"
+          }
+        },
+        "sharing": {
+          "type": "sharing",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "ba6ccd83-6799-461f-b654-77685e922f17": {
+          "type": "upsell",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "form",
+        "f894ebb3-0a7f-48f2-a057-e09d37adad9e",
+        "pickup",
+        "description",
+        "sharing",
+        "ba6ccd83-6799-461f-b654-77685e922f17"
+      ],
+      "settings": {
+        "image_width": "wide",
+        "align": "left",
+        "product_breadcrumbs": false,
+        "enable_video_looping": true,
+        "zoom_enable": false,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "related": {
+      "type": "related",
+      "disabled": true,
+      "settings": {
+        "heading": "You might also like",
+        "bg": "palette--light bg--accent",
+        "grid": 3,
+        "related_products_enable": true,
+        "limit": 6,
+        "product_recommendations_heading": "Related products",
+        "show_recently_viewed": true,
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4,
+        "product_recently_heading": "Recently viewed"
+      }
+    },
+    "c17fa58f-1a45-428f-a205-60e23fdf3a6b": {
+      "type": "product-ingredient",
+      "settings": {
+        "title": "KEY NATURAL INGREDIENTS",
+        "align_text": "text-center",
+        "text_size": 1,
+        "height": "margin--medium",
+        "width": "wrapper--full",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--accent"
+      }
+    },
+    "ccc52519-a7c2-44c6-9990-48d45929b043": {
+      "type": "section-icons",
+      "blocks": {
+        "template--15434600218822__ccc52519-a7c2-44c6-9990-48d45929b043-167051795072727d86-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_alt": "shopify:\/\/shop_images\/icon_vegan.png",
+            "icon_color": "#aaaaaa",
+            "title": "VEGAN",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "template--15434600218822__ccc52519-a7c2-44c6-9990-48d45929b043-167051795072727d86-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shipment-world",
+            "icon_alt": "shopify:\/\/shop_images\/icon_cruelty.png",
+            "icon_color": "#aaaaaa",
+            "title": "CRUELTY FREE",
+            "text": "<p><\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "template--15434600218822__ccc52519-a7c2-44c6-9990-48d45929b043-167051795072727d86-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-phone",
+            "icon_alt": "shopify:\/\/shop_images\/reef_icon_99ec6b26-5192-4db4-8f83-07c588218c52.png",
+            "icon_color": "#aaaaaa",
+            "title": "REEF SAFE",
+            "text": "<p><\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "f7d8309b-74e8-414e-91cc-bfaf75068a04": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/icon_pcr.png",
+            "icon_color": "#aaaaaa",
+            "title": "PCR PLASTIC",
+            "text": "<p><\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "4473dcd8-e379-4871-bbe7-17ca62d8f972": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/carbon_icon_8164573e-5fdd-441f-b5e8-0185914baeee.png",
+            "icon_color": "#aaaaaa",
+            "title": "CARBON NEUTRAL",
+            "text": "<p><\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "3988d3b4-143f-4f19-98cc-4606446d9046": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/giveback_icon_ba372525-d7ce-4837-a405-6a98fe6cc89a.png",
+            "icon_color": "#aaaaaa",
+            "title": "WE GIVE 1%",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15434600218822__ccc52519-a7c2-44c6-9990-48d45929b043-167051795072727d86-0",
+        "template--15434600218822__ccc52519-a7c2-44c6-9990-48d45929b043-167051795072727d86-1",
+        "template--15434600218822__ccc52519-a7c2-44c6-9990-48d45929b043-167051795072727d86-2",
+        "f7d8309b-74e8-414e-91cc-bfaf75068a04",
+        "4473dcd8-e379-4871-bbe7-17ca62d8f972",
+        "3988d3b4-143f-4f19-98cc-4606446d9046"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "icon_size": "icon--medium",
+        "icon_alignment": "icon--left",
+        "layout": "grid--stacked",
+        "align_text": "text-left"
+      }
+    },
+    "16512657271bf75790": {
+      "type": "apps",
+      "blocks": {
+        "78ac79c3-1a5d-4861-bb31-08572454c90e": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "78ac79c3-1a5d-4861-bb31-08572454c90e"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "height": "margin--medium",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "165126567912269ea2": {
+      "type": "apps",
+      "settings": {
+        "width": "wrapper",
+        "height": "margin--medium",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "disabled": true,
+      "settings": {
+        "product_reviews_enable": false,
+        "bg": "palette--light bg--accent"
+      }
+    },
+    "zp-product-footer-content": {
+      "type": "product-footer-content-zipifypages",
+      "settings": {
+      }
+    },
+    "1670349433e1d2e1f4": {
+      "type": "apps",
+      "settings": {
+        "width": "wrapper",
+        "height": "margin--medium",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "zp-product-header-content",
+    "main",
+    "related",
+    "c17fa58f-1a45-428f-a205-60e23fdf3a6b",
+    "ccc52519-a7c2-44c6-9990-48d45929b043",
+    "16512657271bf75790",
+    "165126567912269ea2",
+    "reviews",
+    "zp-product-footer-content",
+    "1670349433e1d2e1f4"
+  ]
+}

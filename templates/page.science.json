@@ -1,0 +1,546 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "b53cd776-5fc1-45ea-aecf-f5c3cc17d7b5": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Asset_17.png",
+        "mobile_image": "shopify:\/\/shop_images\/Asset_18.png",
+        "bg_position": "center-center",
+        "height": "use_image",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "0d355f8f-b7dd-4d56-b247-9a2114f77baa": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--15448406130886__0d355f8f-b7dd-4d56-b247-9a2114f77baa-1671213196bc51581b-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Our Approach <\/p>",
+            "text_size": 7
+          }
+        },
+        "template--15448406130886__0d355f8f-b7dd-4d56-b247-9a2114f77baa-1671213196bc51581b-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Did you know your skin’s natural ecosystem is made of microorganisms like bacteria, yeast and fungus that determine skin health? That’s why our marine scientist founder has created our collection with a skin-science first approach to restore the pH of your acid mantle, fortify your skin barrier and balance the microorganisms in your microbiome. <br\/><br\/>Each formula uses unique,restorative plant ingredients to solve common skin concerns and balance the skin back to it’s healthy, natural state. While being free of petrochemicals, parabens, phthalates and a long list of other not-so-great ingredients often found in conventional beauty products. We believe in effective plant solutions that are good for you and for the environment.<\/p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--15448406130886__0d355f8f-b7dd-4d56-b247-9a2114f77baa-1671213196bc51581b-1",
+        "template--15448406130886__0d355f8f-b7dd-4d56-b247-9a2114f77baa-1671213196bc51581b-2"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "9ba1cd93-827f-4b0d-9961-c2d33834f74a": {
+      "type": "section-icons",
+      "blocks": {
+        "template--15448406130886__9ba1cd93-827f-4b0d-9961-c2d33834f74a-167121319645fca77b-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_alt": "shopify:\/\/shop_images\/icon_vegan.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>vegan<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "template--15448406130886__9ba1cd93-827f-4b0d-9961-c2d33834f74a-167121319645fca77b-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shipment-world",
+            "icon_alt": "shopify:\/\/shop_images\/icon_cruelty.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>cruelty-free<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "template--15448406130886__9ba1cd93-827f-4b0d-9961-c2d33834f74a-167121319645fca77b-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-phone",
+            "icon_alt": "shopify:\/\/shop_images\/reef_icon_99ec6b26-5192-4db4-8f83-07c588218c52.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>reef-safe<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "64c46a74-e8a8-4761-b4c7-4371ab87de33": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/icon_pcr.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>PCR plastic <\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15448406130886__9ba1cd93-827f-4b0d-9961-c2d33834f74a-167121319645fca77b-0",
+        "template--15448406130886__9ba1cd93-827f-4b0d-9961-c2d33834f74a-167121319645fca77b-1",
+        "template--15448406130886__9ba1cd93-827f-4b0d-9961-c2d33834f74a-167121319645fca77b-2",
+        "64c46a74-e8a8-4761-b4c7-4371ab87de33"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "icon_size": "icon--medium",
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-center"
+      }
+    },
+    "3a119888-0dd3-4c9a-95ae-933c11e94c5a": {
+      "type": "section-gallery",
+      "blocks": {
+        "template--15448406130886__3a119888-0dd3-4c9a-95ae-933c11e94c5a-167121302944542600-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_1_89f7db98-bc8b-4ca7-9742-ef548c05f71d.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "template--15448406130886__3a119888-0dd3-4c9a-95ae-933c11e94c5a-167121302944542600-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_2_a3cd60a4-9503-459c-a2a1-8409c08ac2f3.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "template--15448406130886__3a119888-0dd3-4c9a-95ae-933c11e94c5a-167121302944542600-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_3_6c98c891-981b-47ea-b446-be57a26cf687.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "6c740a29-883d-422d-8df6-fbf6d42d360b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_4_54d0d9b6-467b-414e-b27f-f0d0b192b8dd.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "295dbdec-5926-47dc-8504-d6e785db8773": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_5_e1eda808-bfb1-4164-bd54-ca8e76c3e6f6.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "fe6d6e5a-418c-4b1e-bb57-f88c08d0c081": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_28.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "708c1441-9e28-45c1-bbfb-a2777bfd14c2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_29.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "ba1f1920-8388-46fb-83f7-046b82d68387": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_8_0792b242-c47a-4ae4-8a3e-2a6d9a9ee0f5.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "5f81d8d4-7877-45d2-acfb-07dea23c26fe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_9_f1279f04-66a8-46a5-adc8-64bca86762c3.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "dbed56e1-7dbf-4aaf-9db8-e54223d635b5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_32.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "71a986c8-aa0d-42cb-90ea-18b619429392": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_11_93be97d1-8e91-475f-b657-ae9c0f108a40.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "bdbf746b-13bb-4b1a-8f9c-fff06b9fbc81": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_12_b9c91bf7-aec5-4a8f-bf5b-820da95a3647.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15448406130886__3a119888-0dd3-4c9a-95ae-933c11e94c5a-167121302944542600-0",
+        "template--15448406130886__3a119888-0dd3-4c9a-95ae-933c11e94c5a-167121302944542600-1",
+        "template--15448406130886__3a119888-0dd3-4c9a-95ae-933c11e94c5a-167121302944542600-2",
+        "6c740a29-883d-422d-8df6-fbf6d42d360b",
+        "295dbdec-5926-47dc-8504-d6e785db8773",
+        "fe6d6e5a-418c-4b1e-bb57-f88c08d0c081",
+        "708c1441-9e28-45c1-bbfb-a2777bfd14c2",
+        "ba1f1920-8388-46fb-83f7-046b82d68387",
+        "5f81d8d4-7877-45d2-acfb-07dea23c26fe",
+        "dbed56e1-7dbf-4aaf-9db8-e54223d635b5",
+        "71a986c8-aa0d-42cb-90ea-18b619429392",
+        "bdbf746b-13bb-4b1a-8f9c-fff06b9fbc81"
+      ],
+      "settings": {
+        "full_width": false,
+        "padding": true,
+        "scale_image": false,
+        "aspect_ratio": 1,
+        "bg": "palette--dark bg--invert--accent"
+      }
+    },
+    "1f5ac693-3181-43a6-a861-f583094bc7f3": {
+      "type": "section-gallery",
+      "blocks": {
+        "template--15448406130886__1f5ac693-3181-43a6-a861-f583094bc7f3-167121302944542600-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_5_e1eda808-bfb1-4164-bd54-ca8e76c3e6f6.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "template--15448406130886__1f5ac693-3181-43a6-a861-f583094bc7f3-167121302944542600-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_28.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "template--15448406130886__1f5ac693-3181-43a6-a861-f583094bc7f3-167121302944542600-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_29.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "b8ec973d-0747-496d-b4a1-820ab4f63e9b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_8_0792b242-c47a-4ae4-8a3e-2a6d9a9ee0f5.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15448406130886__1f5ac693-3181-43a6-a861-f583094bc7f3-167121302944542600-0",
+        "template--15448406130886__1f5ac693-3181-43a6-a861-f583094bc7f3-167121302944542600-1",
+        "template--15448406130886__1f5ac693-3181-43a6-a861-f583094bc7f3-167121302944542600-2",
+        "b8ec973d-0747-496d-b4a1-820ab4f63e9b"
+      ],
+      "settings": {
+        "full_width": false,
+        "padding": true,
+        "scale_image": false,
+        "aspect_ratio": 1,
+        "bg": "palette--dark bg--invert--accent"
+      }
+    },
+    "a8943fab-8bf8-42e6-9989-7fdeb705d618": {
+      "type": "section-gallery",
+      "blocks": {
+        "template--15448406130886__a8943fab-8bf8-42e6-9989-7fdeb705d618-167121302944542600-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_9_f1279f04-66a8-46a5-adc8-64bca86762c3.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "218b4648-6f59-4ee8-a00a-18f42a4e7eba": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_32.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "525512ce-9284-4070-a312-8adae7e0bbbd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_11_93be97d1-8e91-475f-b657-ae9c0f108a40.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "550127cd-9bfd-4f50-894f-b3aab40bb3e2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_12_b9c91bf7-aec5-4a8f-bf5b-820da95a3647.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15448406130886__a8943fab-8bf8-42e6-9989-7fdeb705d618-167121302944542600-2",
+        "218b4648-6f59-4ee8-a00a-18f42a4e7eba",
+        "525512ce-9284-4070-a312-8adae7e0bbbd",
+        "550127cd-9bfd-4f50-894f-b3aab40bb3e2"
+      ],
+      "settings": {
+        "full_width": false,
+        "padding": true,
+        "scale_image": false,
+        "aspect_ratio": 0.6,
+        "bg": "palette--dark bg--invert--accent"
+      }
+    },
+    "c60e2b31-3491-41af-92c9-b326444ec377": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--15448406130886__c60e2b31-3491-41af-92c9-b326444ec377-1671213196bc51581b-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>For Your Microbiome<\/p>",
+            "text_size": 8
+          }
+        }
+      },
+      "block_order": [
+        "template--15448406130886__c60e2b31-3491-41af-92c9-b326444ec377-1671213196bc51581b-1"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "80578bf8-5f0e-45dc-99af-9f1cbf94252d": {
+      "type": "section-double",
+      "blocks": {
+        "template--15448406130886__80578bf8-5f0e-45dc-99af-9f1cbf94252d-1671213169b1591b23-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p><\/p><p>Miami Beach Bum uses a pH of 5-5.5 to maintain the acidic balance of your acid mantle and to maintain a healthy skin barrier that protects from environmental damage. <br\/><br\/>We formulate with a base of aloe and ingredients like shea butter, jojoba oil, squalane, and hyaluronic acid to restore your skin barrier, infuse hydration and soothe irritations. <br\/><br\/>Using herbal extracts with particular properties works to balance the microogranisms in the microbiome. These ingredients help balance any overgrowth of bacteria, yeast or fungus. <\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "template--15448406130886__80578bf8-5f0e-45dc-99af-9f1cbf94252d-1671213169b1591b23-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_28_b3ac9b03-5833-4f41-b377-d3f0ea9defbb.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "template--15448406130886__80578bf8-5f0e-45dc-99af-9f1cbf94252d-1671213169b1591b23-0",
+        "template--15448406130886__80578bf8-5f0e-45dc-99af-9f1cbf94252d-1671213169b1591b23-1"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "aea4c437-d667-422a-bb71-f9c631e003ec": {
+      "type": "section-collection",
+      "settings": {
+        "title": "Shop best sellers",
+        "collection": "shop-all",
+        "grid": 4,
+        "rows": 1,
+        "bg": "palette--light bg--neutral",
+        "show_view_all": true
+      }
+    },
+    "46208c24-2df4-4d73-9926-fc4bfb41f93d": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--15448406130886__46208c24-2df4-4d73-9926-fc4bfb41f93d-1671213196bc51581b-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Take A Deeper Dive In <\/p>",
+            "text_size": 8
+          }
+        },
+        "template--15448406130886__46208c24-2df4-4d73-9926-fc4bfb41f93d-1671213196bc51581b-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Learn more about our clean formulas on our blog, Behind the Bum<\/p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--15448406130886__46208c24-2df4-4d73-9926-fc4bfb41f93d-1671213196bc51581b-1",
+        "template--15448406130886__46208c24-2df4-4d73-9926-fc4bfb41f93d-1671213196bc51581b-2"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "bg": "palette--light bg--accent"
+      }
+    },
+    "1651197572516b3956": {
+      "type": "section-columns",
+      "blocks": {
+        "16511975720ed6e01b-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Asset_21.png",
+            "bg_position": "center-center",
+            "title": "Our 'No' List",
+            "text": "<p>When it comes to certain harmful ingredients... it’s never going to happen.<\/p>",
+            "button_label": "read more",
+            "button_link": "shopify:\/\/blogs\/behind-the-bum\/our-never-gonna-happen-list",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "custom_video_link": ""
+          }
+        },
+        "16511975720ed6e01b-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/blog5.jpg",
+            "bg_position": "center-center",
+            "title": "The Power of Oregano",
+            "text": "<p>Three magical reasons you should consider adding this herb to your skincare ritual.<\/p>",
+            "button_label": "read more",
+            "button_link": "shopify:\/\/blogs\/behind-the-bum\/the-power-of-oregano",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "custom_video_link": ""
+          }
+        },
+        "16511975720ed6e01b-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Asset_22.png",
+            "bg_position": "center-center",
+            "title": "Microbiome-Friendly",
+            "text": "<p>Keeping your skin's ecosysem in homeostasis is the key to optimal skin health. <\/p>",
+            "button_label": "read more",
+            "button_link": "shopify:\/\/blogs\/behind-the-bum\/microbiome-friendly-formulas",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "custom_video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16511975720ed6e01b-0",
+        "16511975720ed6e01b-1",
+        "16511975720ed6e01b-2"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--accent",
+        "align_text": "text-left",
+        "scale_image": true,
+        "aspect_ratio": 1
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b53cd776-5fc1-45ea-aecf-f5c3cc17d7b5",
+    "0d355f8f-b7dd-4d56-b247-9a2114f77baa",
+    "9ba1cd93-827f-4b0d-9961-c2d33834f74a",
+    "3a119888-0dd3-4c9a-95ae-933c11e94c5a",
+    "1f5ac693-3181-43a6-a861-f583094bc7f3",
+    "a8943fab-8bf8-42e6-9989-7fdeb705d618",
+    "c60e2b31-3491-41af-92c9-b326444ec377",
+    "80578bf8-5f0e-45dc-99af-9f1cbf94252d",
+    "aea4c437-d667-422a-bb71-f9c631e003ec",
+    "46208c24-2df4-4d73-9926-fc4bfb41f93d",
+    "1651197572516b3956"
+  ]
+}

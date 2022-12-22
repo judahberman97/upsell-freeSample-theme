@@ -1,0 +1,311 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": false,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--large",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "16535931390121341c": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/storytop.jpg",
+        "bg_position": "center-center",
+        "height": "use_image",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "1651543297dae80313": {
+      "type": "section-custom-content",
+      "blocks": {
+        "29d83eaa-42a5-4ede-ad74-11a6b49d5a12": {
+          "type": "text",
+          "settings": {
+            "kicker": "Meet paradise for your skin’s ecosystem",
+            "title": "",
+            "text": "<p>Based in Miami Beach, our marine scientist-backed collection restores skin health and inspires a sense of adventure in every self-care ritual. <\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "29d83eaa-42a5-4ede-ad74-11a6b49d5a12"
+      ],
+      "settings": {
+        "height": "use_pixels_500",
+        "padding": false,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "16535933050163380b": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/story2_ff253af3-3dcc-46d4-bd49-2cb122e3309d.jpg",
+        "bg_position": "center-center",
+        "height": "use_image",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "1653593511c7f3d173": {
+      "type": "section-custom-content",
+      "blocks": {
+        "b9306b1e-c208-42c3-8cfb-c246e3b0e0a4": {
+          "type": "text",
+          "settings": {
+            "kicker": "Our Founder",
+            "title": "",
+            "text": "<p>“As a marine scientist, the ocean is a part of my daily ritual. My form of self-care is being active and around water. From constantly being in wet bathing suits, I developed folliculitis on my bum. Beauty shelves didn’t have a natural solution, so I formulated our signature Bum + Body Cream. Now with a growing collection, each product has become an essential part of my ritual and I hope they can become a part of your unique ritual too.” <\/p><p>-Ayssa <\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "b9306b1e-c208-42c3-8cfb-c246e3b0e0a4"
+      ],
+      "settings": {
+        "height": "use_pixels_500",
+        "padding": false,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "1653593398c05a1aac": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/story3_75c490fc-b062-43d3-9016-0dcbf3bc9a6b.jpg",
+        "bg_position": "center-center",
+        "height": "use_image",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "16535935397ba03edd": {
+      "type": "section-custom-content",
+      "blocks": {
+        "c218ed72-7c6c-402c-92e0-eee26c3dd2ce": {
+          "type": "text",
+          "settings": {
+            "kicker": "Our Vibe",
+            "title": "",
+            "text": "<p>Headquartered in Sunset Harbour, Miami Beach, our aesthetic is inspired by Miami's historic Art Deco district. Cue the curves and bright colors, from pastel blues and pinks, to vibrant yellows.<\/p><p><\/p><p>Infamous for our beaches and bums— our cheeky logo is the iconic Miami under-bum.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "c218ed72-7c6c-402c-92e0-eee26c3dd2ce"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "1651194017809939eb": {
+      "type": "section-icons",
+      "blocks": {
+        "16511940171ccfc551-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_alt": "shopify:\/\/shop_images\/veganicon.png",
+            "icon_color": "#aaaaaa",
+            "title": "Vegan Ingredients",
+            "text": "<p>Made from ethically sourced plant ingredients—only botanical goodness here!<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "16511940171ccfc551-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shipment-world",
+            "icon_alt": "shopify:\/\/shop_images\/leapingbunny.png",
+            "icon_color": "#aaaaaa",
+            "title": "Cruelty-Free",
+            "text": "<p>Leaping Bunny Certified cruelty-free—we never use animal ingredients or test on animals. <\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "16511940171ccfc551-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-phone",
+            "icon_alt": "shopify:\/\/shop_images\/reef.png",
+            "icon_color": "#aaaaaa",
+            "title": "Reef Safe",
+            "text": "<p>Free of chemicals and particles that harm coral reefs—we believe in ocean conservation. <\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "eccf97ce-dc51-4d9e-8355-83efb3c59867": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/PCRicon.png",
+            "icon_color": "#aaaaaa",
+            "title": "PCR Plastic",
+            "text": "<p>Made from post-consumer recycled (PCR) plastic— we value a circular economy and never use virgin plastics. <\/p><p><\/p><p><\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "55e618db-b0f6-471e-a1eb-3d33b3bd0991": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/staricon.png",
+            "icon_color": "#aaaaaa",
+            "title": "Made in the usa",
+            "text": "<p>Proudly made in the USA—we bolster our local economy and prioritize human rights over forced labor. <\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "b82d88af-9780-4a6b-8b75-566b844cb723": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/carbonneutral.png",
+            "icon_color": "#aaaaaa",
+            "title": "Carbon-Neutral",
+            "text": "<p>To do our part in climate action we offset our carbon emissions by investing in restoration projects. <\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "61fa2706-fb99-4246-821f-6d51bd4d0e5b": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/hearticon.png",
+            "icon_color": "#aaaaaa",
+            "title": "We Give Back",
+            "text": "<p>We give back 1%  to <a href=\"https:\/\/www.operationliberation.org\/\">Operation Liberation <\/a>in support of animal and human welfare initiatives. <\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "2ac5eeb2-2d88-4d1e-84bf-16f7b9ff1494": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/womenicon.png",
+            "icon_color": "#aaaaaa",
+            "title": "Women-Owned",
+            "text": "<p>Rare to the beauty industry, we have remained 100% funded and owned by women. <\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "fe1da4bc-55dc-4cd3-8138-cb1d8a64fd46": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/science.png",
+            "icon_color": "#aaaaaa",
+            "title": "Science",
+            "text": "<p>Founded by a marine scientist—science is our thing. <a href=\"\/pages\/science\" title=\"Our Science\">Learn more about how we formulate.<\/a> <\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16511940171ccfc551-0",
+        "16511940171ccfc551-1",
+        "16511940171ccfc551-2",
+        "eccf97ce-dc51-4d9e-8355-83efb3c59867",
+        "55e618db-b0f6-471e-a1eb-3d33b3bd0991",
+        "b82d88af-9780-4a6b-8b75-566b844cb723",
+        "61fa2706-fb99-4246-821f-6d51bd4d0e5b",
+        "2ac5eeb2-2d88-4d1e-84bf-16f7b9ff1494",
+        "fe1da4bc-55dc-4cd3-8138-cb1d8a64fd46"
+      ],
+      "settings": {
+        "title": "our values",
+        "bg": "palette--light bg--accent",
+        "icon_size": "icon--medium",
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-center"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16535931390121341c",
+    "1651543297dae80313",
+    "16535933050163380b",
+    "1653593511c7f3d173",
+    "1653593398c05a1aac",
+    "16535935397ba03edd",
+    "1651194017809939eb"
+  ]
+}

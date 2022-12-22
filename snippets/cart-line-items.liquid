@@ -1,0 +1,285 @@
+{%- assign pair_products_index = '' -%}
+{%- assign cart_products = '' -%}
+
+<div class="cart__items" total-final-price="{{ cart.total_price }}" data-csapp_line_wrapper>
+  {% for line_item in cart.items %}
+    <div class="cart__items__row" data-cart-item data-cart-item-id="{{ line_item.id }}" data-csapp_line_index>
+      <div class="item--loadbar" style="display: none;">&nbsp;</div>
+      <div class="cart__items__grid" data-item>
+        <a href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity=0"
+          class="cart__items__remove" 
+          data-remove-key="{{ line_item.key }}"
+          tabindex="0">
+          <span class="cart__remove__icon">
+            {%- render 'icon-bin' -%}
+          </span>
+          <span class="cart__remove badge">
+            {{ 'cart.general.remove' | t }}
+          </span>
+        </a>
+        <div class="cart__items__image">
+          <a href="{{ line_item.url }}">
+            <img class="cart__items__img" src="{{ line_item | img_url: '180x' }}" alt="{{ line_item.title | strip_html | escape }}">
+          </a>
+        </div>
+          
+        <div class="cart__items__title">
+          <p>
+            <a href="{{ line_item.url }}">
+              {{ line_item.product.title }}
+            </a>
+            <div data-csapp_discount_summery></div>
+          </p>
+          <div class="cart__items__meta">
+            {% comment %} Vendor if enabled {% endcomment %}
+            {% if settings.cart_vendor_enable %}
+              <p class="small">{{ line_item.vendor }}</p>
+            {% endif %}
+
+            {% comment %} Variant as name/name/name {% endcomment %}
+            {% unless line_item.product.has_only_default_variant %}
+              <p class="small">{{ line_item.variant.title }}</p>
+            {% endunless %}
+
+            {% comment %} Subscription plan name {% endcomment %}
+            {% if line_item.selling_plan_allocation %}
+              <p class="small">{{ line_item.selling_plan_allocation.selling_plan.name }}</p>
+            {%- endif -%}
+
+            {% comment %} Line item properties, including files {% endcomment %}
+            {% assign property_size = line_item.properties | size %}
+            {%- if property_size > 0 -%}
+              {%- for p in line_item.properties -%}
+                {%- assign property_first_char = p.first | slice: 0 -%}
+                {%- if p.last != blank and property_first_char != '_' -%} 
+                  <p class="small">
+                    <span>{{ p.first }}: </span>
+                    <span>
+                      {%- if p.last contains '/uploads/' -%}
+                        <a href="{{ p.last }}">{{ p.last | split: '/' | last }}</a>
+                      {%- else -%}
+                        {{ p.last }}
+                      {%- endif -%}
+                    </span>
+                  </p>
+                {%- endif -%}
+              {%- endfor -%}
+            {%- endif -%}
+          </div>
+        </div>
+
+        <div class="cart__items__price">
+          <p class="line__price" data-csapp_price>
+            {%- assign discounted = false -%}
+            {%- if line_item.original_price > line_item.final_price -%}
+              {%- assign discounted = true -%}
+            {%- endif -%}
+            {%- assign sale = false -%}
+            {%- if line_item.variant.compare_at_price > line_item.price -%}
+              {%- assign sale = true -%}
+            {%- endif -%}
+
+            {%- if sale -%}
+              <del>{{ line_item.variant.compare_at_price | money }}</del>
+            {%- endif -%}
+            {%- if discounted -%}
+              <del>{{ line_item.original_price | money }}</del>
+            {%- endif -%}
+
+            {%- if sale or discounted -%}
+              <mark>{{ line_item.final_price | money }}</mark>
+            {%- else -%}
+              {{ line_item.final_price | money }}
+            {%- endif -%}
+          </p>
+          {% if line_item.unit_price %}
+            {% capture unit_price_separator %}
+              <span aria-hidden="true">/</span><span class="visually-hidden">{{ 'general.accessibility.unit_price_separator' | t }}&nbsp;</span>
+            {% endcapture %}
+            {% capture unit_price_base_unit %}
+              {% if line_item.unit_price_measurement.reference_value != 1 %}
+                {{ line_item.unit_price_measurement.reference_value }}
+              {% endif %}
+              {{ line_item.unit_price_measurement.reference_unit }}
+            {% endcapture %}
+            <p class="line__price">
+              <span class="visually-hidden">{{ 'products.product.unit_price_label' | t }}</span>
+              <span>{{ line_item.unit_price | money }}{{ unit_price_separator }}{{ unit_price_base_unit }}</span>
+            </p>
+          {% endif %}
+        </div>
+
+        <div class="cart__items__quantity">
+          <div class="quantity__wrapper" data-quantity-selector>
+            <button class="quantity__button quantity__button--minus" data-decrease-quantity type="button">&minus;</button>
+            <label for="updates_{{ line_item.key }}" class="visually-hidden">{{ 'cart.label.quantity' | t }}</label>
+            <input data-quantity-input
+              data-update-cart="{{ line_item.key }}"
+              class="quantity__input"
+              type="number"
+              min="0"
+              size="4"
+              pattern="[0-9]*"
+              id="updates_{{ line_item.key }}"
+              name="updates[]"
+              value="{{ line_item.quantity }}"/>
+            <button class="quantity__button quantity__button--plus" data-increase-quantity type="button">+</button>
+          </div>
+        </div>
+
+       <div class="cart__items__total">
+        <div data-csapp_line_price>
+          {{ line_item.final_line_price | money }}
+        </div>
+        </div>
+
+        {% if discounted and line_item.quantity >= 1 %}
+          {%- for discount in line_item.line_level_discount_allocations -%}
+            <div class="cart__items__savings">
+              <span class="item__total__savings">
+                <span class="cart__icon--tags">
+                  {% render 'icon-tags' %}
+                </span>
+                {{ 'cart.general.savings' | t }}
+                {{ discount.amount | money_without_trailing_zeros }}
+                {{ 'cart.general.with' | t }}
+                {{ discount.discount_application.title }}
+              </span>
+            </div>
+          {%- endfor -%}
+        {% endif %}
+      </div>
+    </div>
+
+    {%- assign cart_products = cart_products | append: line_item.product.id | append: ',' -%}
+    {% comment %}
+    {%- assign upsell = line_item.product.metafields.theme.upsell -%}
+
+    {%- if upsell.value != nil and upsell.type == 'product_reference' -%}
+      {%- assign pair_products_index = pair_products_index | append: forloop.index0 | append: ',' -%}
+    {%- endif -%}
+    {% endcomment %}
+
+    {% if line_item.product.metafields.theme.upsell %}      
+        {%- assign pair_products_index = pair_products_index | append: forloop.index0 | append: ',' -%}      
+    {% endif %}
+    
+  {% endfor %}
+</div>
+
+{% if settings.free_sample_collection %}
+  <div class="free-sample-collection--wrapper">
+    <div class="free-sample-collection__title">Choose your free sample</div>
+    <div class="free-sample-container swiper mySwiper">
+      <div class="swiper-wrapper">
+        {% for free_product in settings.free_sample_collection.products %}
+          {%- assign free_sample_variant = free_product.selected_or_first_available_variant -%}
+
+          <div class="swiper-slide">
+            <free-product data-variant-id="{{ free_sample_variant.id }}">
+              <div class="free-sample-product" data-free-product-holder="{{ free_product.id }}" data-add-action-wrapper>
+                <div class="free-sample-product__image__content">
+                  <div class="free-sample__image">
+                    {%- assign free_product_image = free_product.featured_media.preview_image -%}
+                    
+                      <div class="free-sample__image__inner" style="background-color: var(--bg-accent);"></div>
+                    
+                      
+                        <img class="free-sample__image__inner" 
+                          loading="lazy" 
+                          alt="{{ free_product_image.alt | default: free_product_image.title | strip_html | escape }}" 
+                          src="{{ free_product_image.src | img_url: '180x180', crop: 'center' }}"
+                          width="90"
+                          height="90">
+                      
+
+                  </div>
+                  <div class="free-sample__content">
+                    <h3 class="free-sample__title">{{ free_product.title | strip_html }}</h3>
+                    <p class="small">{{ upsell_product.vendor }}</p>
+                  </div>
+                  <div class="free-sample__button__content">
+                    {%- if upsell_error -%}
+                      <h3 class="upsell__title">{{ 'products.general.upsell_error_title' | t }}</h3>
+                      <p class="small">{{ 'products.general.upsell_error_info' | t }}</p> 
+                    {%- else -%}
+                      {%- form 'product', free_product -%}
+                        <input type="hidden" name="id" value="{{ free_sample_variant.id }}">
+                        
+                        <input id="product-type" type="hidden" name="properties[Product Type]" value="Free sample">
+
+                        <div class="quantity__wrapper" data-quantity-selector="">
+                          <button class="quantity__button quantity__button--minus" data-decrease-quantity="" type="button">−</button>
+                          <input data-quantity-input="" aria-label="Quantity" class="quantity__input upsell-quantity-selector" type="number" min="1" size="4" pattern="[0-9]*" name="quantity" value="1">
+                          <button class="quantity__button quantity__button--plus" data-increase-quantity="" type="button">+</button>
+                        </div>
+        
+                        <button 
+                          data-add-to-cart
+                          {% if show_form %} 
+                            type="submit" name="add"
+                          {% else %}
+                            data-add-to-cart-variant="{{ free_sample_variant.id }}" 
+                            data-add-to-cart-quantity="1"
+                          {% endif %} 
+                          class="upsell__btn uppercase btn--soft btn--small btn--primary
+                          {% unless free_sample_variant.available %} is-hidden {% endunless %}"> 
+                          <span class="btn-state-ready">{{ 'products.general.upsell_add_to_cart' | t }}</span>
+        
+                          <span class="btn-state-loading">
+                            <svg height="18" width="18" class="svg-loader">
+                              <circle r="7" cx="9" cy="9" />
+                              <circle stroke-dasharray="87.96459430051421 87.96459430051421" r="7" cx="9" cy="9" />
+                            </svg>
+                          </span>
+        
+                          <span class="btn-state-complete">&nbsp;</span>
+                        </button>
+        
+                        <p class="upsell__out-of-stock {% if free_sample_variant.available %} is-hidden{% endif %}">{{ 'products.general.upsell_out_of_stock' | t }}</p>
+                      {%- endform -%}
+        
+                    {%- endif -%}
+                  </div>
+                </div>
+      
+              </div>
+            </free-product>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endif %}
+{%- if pair_products_index != '' -%}
+  {%- assign pair_products_index = pair_products_index | split: ',' -%}
+  {%- assign cart_products = cart_products | prepend: ',' -%}
+  {%- assign upsell_product_ids = '' -%}
+
+  <div class="product__upsell__wrapper cart__upsell__wrapper">
+    <div class="upsell__title">Complete Your Ritual</div>
+    <div class="cart__product__upsell__container swiper mySwiper">
+      <div class="swiper-wrapper">
+        {%- for index in pair_products_index -%}
+          {%- assign arr_index = index | plus: 0 -%}
+          {% if arr_index %}
+            {% if cart.items[arr_index].product.metafields.theme.upsell.value %}
+              {% for upsell_product in cart.items[arr_index].product.metafields.theme.upsell.value %}
+                {%- if cart_products contains upsell_product.id or upsell_product.available == false or upsell_product_ids contains upsell_product.id -%}
+                  {%- continue -%}
+                {%- endif -%}
+
+                {% assign upsell_product_ids = upsell_product_ids | append: upsell_product.id | append: "," %}
+
+                <div class="swiper-slide">
+                  {%- render 'upsell-product' upsell_product: upsell_product -%}
+                </div>
+                
+              {% endfor %}
+            {% endif %}
+          {% endif %}
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+{%- endif -%}  

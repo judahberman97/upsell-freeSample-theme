@@ -1,0 +1,347 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "16589523737712ef52": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pouchset_desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/pouchset_mobile.jpg",
+        "bg_position": "center-center",
+        "height": "use_image",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "shopify:\/\/products\/spf-af-set",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "1660085160b43e954b": {
+      "type": "section-collection",
+      "settings": {
+        "title": "",
+        "collection": "suncare",
+        "grid": 4,
+        "rows": 1,
+        "bg": "palette--light bg--neutral",
+        "show_view_all": false
+      }
+    },
+    "165895379249e63caf": {
+      "type": "section-logos",
+      "blocks": {
+        "1658953792d7ed1ef5-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/whealth.png",
+            "link": ""
+          }
+        },
+        "1658953792d7ed1ef5-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/byrdie-logo.webp",
+            "link": ""
+          }
+        },
+        "1658953792d7ed1ef5-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blackvogue_2.png",
+            "link": ""
+          }
+        },
+        "1658953792d7ed1ef5-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NewBeauty_Logo.png",
+            "link": ""
+          }
+        },
+        "1658953792d7ed1ef5-4": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blackharper_2.png",
+            "link": ""
+          }
+        },
+        "8eb64b34-6d84-4959-ac79-d84fddc3278e": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/oprahlogo_5ef3de74-1a54-44f7-98a6-845f6b9a50c4.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1658953792d7ed1ef5-0",
+        "1658953792d7ed1ef5-1",
+        "1658953792d7ed1ef5-2",
+        "1658953792d7ed1ef5-3",
+        "1658953792d7ed1ef5-4",
+        "8eb64b34-6d84-4959-ac79-d84fddc3278e"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--dark bg--invert"
+      }
+    },
+    "16599903739044aab4": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/infographic_LP_desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/SPFusps_info.jpg",
+        "bg_position": "center-center",
+        "height": "use_image",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "shopify:\/\/products\/spf-af-set",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "16600854766833c633": {
+      "type": "section-columns",
+      "blocks": {
+        "16600854761037e5c8-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/bodyblock_LP.jpg",
+            "bg_position": "center-center",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/products\/blocked",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "custom_video_link": ""
+          }
+        },
+        "16600854761037e5c8-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/faceblock_LP.jpg",
+            "bg_position": "center-center",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/products\/save-face",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "custom_video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16600854761037e5c8-0",
+        "16600854761037e5c8-1"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": false,
+        "aspect_ratio": 1
+      }
+    },
+    "165972180032d63891": {
+      "type": "section-columns",
+      "blocks": {
+        "165972180022e4d155-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/spf_review_C.jpg",
+            "bg_position": "center-center",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "custom_video_link": ""
+          }
+        },
+        "165972180022e4d155-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/spf_review_A_1.jpg",
+            "bg_position": "center-center",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "custom_video_link": ""
+          }
+        },
+        "165972180022e4d155-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/spf_review_B.jpg",
+            "bg_position": "center-center",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "custom_video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165972180022e4d155-0",
+        "165972180022e4d155-1",
+        "165972180022e4d155-2"
+      ],
+      "settings": {
+        "title": "Customer Reviews",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "aspect_ratio": 1
+      }
+    },
+    "16597214364543196c": {
+      "type": "section-icons",
+      "blocks": {
+        "16597214363aab0a98-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_alt": "shopify:\/\/shop_images\/tealicons-05.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>vegan<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "16597214363aab0a98-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shipment-world",
+            "icon_alt": "shopify:\/\/shop_images\/tealicons-01.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>cruelty-free<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "16597214363aab0a98-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-phone",
+            "icon_alt": "shopify:\/\/shop_images\/tealicons-07.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>pcr packaging <\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "8d9ba1b1-9d23-4b79-b055-dbce4869f79f": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/tealicons-03.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>reef-safe<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "125f029a-a37a-4c3f-a697-72c51080fb51": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/tealicons-04.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>carbon neutral <\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "d20abcc3-b53e-4c63-adcf-54eee644989e": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/tealicons-08.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>gives back 1% <\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16597214363aab0a98-0",
+        "16597214363aab0a98-1",
+        "16597214363aab0a98-2",
+        "8d9ba1b1-9d23-4b79-b055-dbce4869f79f",
+        "125f029a-a37a-4c3f-a697-72c51080fb51",
+        "d20abcc3-b53e-4c63-adcf-54eee644989e"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "icon_size": "icon--large",
+        "icon_alignment": "icon--left",
+        "layout": "grid--stacked",
+        "align_text": "text-left"
+      }
+    },
+    "1659722327009fecbc": {
+      "type": "foursixty-fp",
+      "settings": {
+        "title": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16589523737712ef52",
+    "1660085160b43e954b",
+    "165895379249e63caf",
+    "16599903739044aab4",
+    "16600854766833c633",
+    "165972180032d63891",
+    "16597214364543196c",
+    "1659722327009fecbc"
+  ]
+}

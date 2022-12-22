@@ -1,0 +1,360 @@
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/faqpic.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/faqpic_9e5635bf-b466-4daa-bcd7-d29a6e23acae.jpg",
+        "bg_position": "center-center",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 10,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "FAQ",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": false,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--medium",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "faq": {
+      "type": "section-faq",
+      "blocks": {
+        "faq-0": {
+          "type": "text",
+          "settings": {
+            "title": "WHAT ARE YOUR CUSTOMER SERVICE HOURS?",
+            "content": "<p>Our customer service team is available Monday-Friday from 10am to 4pm. You can reach us at <a href=\"mailto:help@miamibeachbum.com\"><span style=\"text-decoration:underline\">help@miamibeachbum.com<\/span><\/a> or by telephone at 305.399.7580. <\/p>"
+          }
+        },
+        "faq-1": {
+          "type": "text",
+          "settings": {
+            "title": "WHAT ARE YOUR SUNSET HARBOUR BOUTIQUE HOURS?",
+            "content": "<p>Our flagship boutique in Sunset Harbor is open Monday-Friday from 10am to 5pm. Not local? Don’t worry, you can always shop online at <a href=\"https:\/\/miamibeachbum.com\/collections\/all\"><span style=\"text-decoration:underline\">miamibeachbum.com<\/span><\/a> 24\/7. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq-0",
+        "faq-1"
+      ],
+      "settings": {
+        "title": "Hours",
+        "align_text": "text-left",
+        "text_size": 1,
+        "height": "margin--small",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "16511911517790a44c": {
+      "type": "section-faq",
+      "blocks": {
+        "165119115104a1b5ed-0": {
+          "type": "text",
+          "settings": {
+            "title": "WHY WON’T MY COUPON CODE WORK?",
+            "content": "<p>Please be sure your order meets the coupon’s terms and conditions. Coupon codes are limited to one per customer, one per order, and cannot be combined with any other codes, subscriptions or promotional offers. <\/p>"
+          }
+        },
+        "165119115104a1b5ed-1": {
+          "type": "text",
+          "settings": {
+            "title": "DO YOU OFFER A DISCOUNT ON FIRST TIME PURCHASES?",
+            "content": "<p>Yes! Please sign up for our newsletter and\/or SMS to receive a discount on your first order and to be the first to know about all upcoming promotions and product launches.<\/p>"
+          }
+        },
+        "165119115104a1b5ed-2": {
+          "type": "text",
+          "settings": {
+            "title": "WHAT FORMS OF PAYMENT DO YOU ACCEPT?",
+            "content": "<p>We accept all major credit cards as well as Klarna, PayPal, Apple Pay and Shop Pay.<\/p>"
+          }
+        },
+        "aa7601d2-a958-4e20-bd26-5a94ec89b1a4": {
+          "type": "text",
+          "settings": {
+            "title": "DO YOU OFFER GIFT CARDS AND HOW DO REDEEM?",
+            "content": "<p>We do! You can purchase gift cards on our website: <a href=\"\/products\/digital-gift-card-1\" title=\"Digital Gift Card\">here. <\/a><\/p><p>Gift cards may be redeemed in the check-out process by entering the gift card code in the “Gift Card” or “Promo Code” box.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165119115104a1b5ed-0",
+        "165119115104a1b5ed-1",
+        "165119115104a1b5ed-2",
+        "aa7601d2-a958-4e20-bd26-5a94ec89b1a4"
+      ],
+      "settings": {
+        "title": "CHECKOUT",
+        "align_text": "text-left",
+        "text_size": 1,
+        "height": "margin--medium",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "16511914728276b4fd": {
+      "type": "section-faq",
+      "blocks": {
+        "1651191472c1b4216f-0": {
+          "type": "text",
+          "settings": {
+            "title": "HOW LONG WILL IT TAKE FOR MY ORDER TO SHIP?",
+            "content": "<p>All orders ship within 1 business day and often go out the same day if you order before 12pm EST on a weekday. We do not ship on weekends or federal holidays. If you place your order on Saturday or Sunday, processing starts the following Monday.<\/p>"
+          }
+        },
+        "1651191472c1b4216f-1": {
+          "type": "text",
+          "settings": {
+            "title": "HOW LONG WILL IT TAKE TO RECEIVE PRODUCT IF I CHOOSE YOUR FREE SHIPPING OPTION?",
+            "content": "<p>Free shipping that takes 3-7 days depending on where you live and carrier delays. <\/p>"
+          }
+        },
+        "1651191472c1b4216f-2": {
+          "type": "text",
+          "settings": {
+            "title": "DO YOU SHIP INTERNATIONALLY?",
+            "content": "<p>At this time we only ship within the United States. However, you can place international orders through our retail partner: <a href=\"https:\/\/www.revolve.com\/miami-beach-bum\/br\/4314ac\/\" target=\"_blank\" title=\"Revolve \">Revolve.<\/a><\/p>"
+          }
+        },
+        "276ac30e-221c-4ba7-8d6b-a28fa1d83f79": {
+          "type": "text",
+          "settings": {
+            "title": "I AM HAVING TROUBLE WITH MY TRACKING - HELP!",
+            "content": "<p>Sorry about that! In a few cases, the carrier takes 1-2 business days to register your shipment status. If your tracking number isn’t updating or working at all, please reach out to us as soon as you can via help@miamibeachbum.com. We can give you the inside info.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1651191472c1b4216f-0",
+        "1651191472c1b4216f-1",
+        "1651191472c1b4216f-2",
+        "276ac30e-221c-4ba7-8d6b-a28fa1d83f79"
+      ],
+      "settings": {
+        "title": "SHIPPING",
+        "align_text": "text-left",
+        "text_size": 1,
+        "height": "margin--medium",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "165119168840bde325": {
+      "type": "section-faq",
+      "blocks": {
+        "16511916880ff41954-0": {
+          "type": "text",
+          "settings": {
+            "title": "HOW CAN I MODIFY OR CANCEL MY ORDER?",
+            "content": "<p>Oh no! We may not be able to cancel or modify this order if it’s already been packed or in transit, but please email us ASAP at help@miamibeachbum.com. We usually can make changes within 1-2 hours of placing your order. <\/p>"
+          }
+        },
+        "16511916880ff41954-1": {
+          "type": "text",
+          "settings": {
+            "title": "WHAT IS YOUR REFUND POLICY?",
+            "content": "<p>We want you to be happy, so we offer first time customers a 30 day money back guarantee. We will provide a return label and deduct $10 from the return. Please email help@miamibeachbum.com to start this process. <\/p><p><\/p><p>All other items and orders are final sale at the time of placing your order.<\/p><p>Please drop us a line if your order is missing or was damaged at the time of delivery. If your order arrived damaged please email us with your order information and photos of the damage, we will happily reship!<\/p><p>Please note that we can only accept returns for products purchased through our website (miamibeachbum.com) or in our retail store. Products purchased through an authorized retailer must be returned to the original place of purchase, per the retailer’s return policy.<\/p>"
+          }
+        },
+        "16511916880ff41954-2": {
+          "type": "text",
+          "settings": {
+            "title": "OOPS! I RECEIVED THE WRONG PRODUCT. WHAT DO I DO?",
+            "content": "<p>Enjoy what we sent and email help@miamibeachbum.com. We will get your correct order out to you!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16511916880ff41954-0",
+        "16511916880ff41954-1",
+        "16511916880ff41954-2"
+      ],
+      "settings": {
+        "title": "RETURNS\/EXCHANGES",
+        "align_text": "text-left",
+        "text_size": 1,
+        "height": "margin--medium",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1651191916c01754d5": {
+      "type": "section-faq",
+      "blocks": {
+        "1651191916754d0b82-0": {
+          "type": "text",
+          "settings": {
+            "title": "HOW DO I CANCEL MY SUBSCRIPTION?",
+            "content": "<p>Login to your <a href=\"https:\/\/miamibeachbum.com\/account\/login?return_url=%2Faccount\"><span style=\"text-decoration:underline\">account<\/span><\/a> and self-manage your subscription. You can cancel at any time. <\/p>"
+          }
+        },
+        "1651191916754d0b82-1": {
+          "type": "text",
+          "settings": {
+            "title": "I’M HAVING TROUBLE LOGGING IN?",
+            "content": "<p>It sounds like you did not create an account at the time of purchasing a subscription, please <a href=\"https:\/\/miamibeachbum.com\/account\/register\"><span style=\"text-decoration:underline\">create<\/span><\/a> one now with the email you used on your order. <\/p>"
+          }
+        },
+        "1651191916754d0b82-2": {
+          "type": "text",
+          "settings": {
+            "title": "HOW DO I SKIP A SHIPMENT OR CHANGE THE FREQUENCY OF MY SUBSCRIPTION?",
+            "content": "<p>Login to your <a href=\"https:\/\/miamibeachbum.com\/account\/login?return_url=%2Faccount\"><span style=\"text-decoration:underline\">account<\/span><\/a> and self-manage your subscription. You can set the frequency for monthly, bi-monthly or quarterly. You can also pause your subscription until you are ready for more.<\/p>"
+          }
+        },
+        "578964a8-42d0-4e0b-9b9b-77aa67ca5947": {
+          "type": "text",
+          "settings": {
+            "title": "HOW TO UPDATE MY SHIPPING ADDRESS?",
+            "content": "<p>Login to your <a href=\"https:\/\/miamibeachbum.com\/account\/login?return_url=%2Faccount\"><span style=\"text-decoration:underline\">account<\/span><\/a> and click “edit addresses”. Please keep in mind that once your order is fulfilled we cannot make changes to your shipping address.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1651191916754d0b82-0",
+        "1651191916754d0b82-1",
+        "1651191916754d0b82-2",
+        "578964a8-42d0-4e0b-9b9b-77aa67ca5947"
+      ],
+      "settings": {
+        "title": "SUBSCRIPTIONS",
+        "align_text": "text-left",
+        "text_size": 1,
+        "height": "margin--medium",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "165119127107d3888e": {
+      "type": "section-faq",
+      "blocks": {
+        "165119127179db6e3b-0": {
+          "type": "text",
+          "settings": {
+            "title": "CAN I PURCHASE WHOLESALE ON YOUR WEBSITE?",
+            "content": "<p>We reserve the right to refuse bulk purchases by wholesalers through our website. Please contact wholesale@miamibeachbum.com to inquire about wholesale partnerships! <\/p>"
+          }
+        },
+        "2ae5bc46-98cd-4f98-8e9e-9885024d05fc": {
+          "type": "text",
+          "settings": {
+            "title": "DO YOU DO INFLUENCER COLLABORATIONS?",
+            "content": "<p>Yes, we’re flattered! Send your media kit to <a href=\"mailto:help@miamibeachbum.com\"><span style=\"text-decoration:underline\">help@miamibeachbum.com<\/span><\/a> and we'll make sure you get connected with our Community Team! <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165119127179db6e3b-0",
+        "2ae5bc46-98cd-4f98-8e9e-9885024d05fc"
+      ],
+      "settings": {
+        "title": "PARTNERSHIPS",
+        "align_text": "text-left",
+        "text_size": 1,
+        "height": "margin--medium",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "165119206410de0be3": {
+      "type": "section-icons",
+      "blocks": {
+        "1651192064a07c2ccf-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shipment",
+            "icon_color": "#aaaaaa",
+            "title": "Free Shipping",
+            "text": "<p>carbon-neutral shipping on orders $35+<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "1651192064a07c2ccf-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_color": "#aaaaaa",
+            "title": "easy returns",
+            "text": "<p>for first time customers<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "510dc4a9-ccd8-4723-b7c4-785038dec147": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shipment-world",
+            "icon_color": "#aaaaaa",
+            "title": "free samples",
+            "text": "<p>with every order<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "1651192064a07c2ccf-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-phone",
+            "icon_color": "#aaaaaa",
+            "title": "need help",
+            "text": "<p>help@miamibeachbum.com<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1651192064a07c2ccf-1",
+        "1651192064a07c2ccf-0",
+        "510dc4a9-ccd8-4723-b7c4-785038dec147",
+        "1651192064a07c2ccf-2"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "icon_size": "icon--medium",
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-center"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "main",
+    "faq",
+    "16511911517790a44c",
+    "16511914728276b4fd",
+    "165119168840bde325",
+    "1651191916c01754d5",
+    "165119127107d3888e",
+    "165119206410de0be3"
+  ]
+}

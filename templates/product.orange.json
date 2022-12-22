@@ -1,0 +1,280 @@
+{
+  "sections": {
+    "zp-product-header-content": {
+      "type": "product-header-content-zipifypages",
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "product_show_vendor": false,
+            "show_rating": true,
+            "show_rating_count": false
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "variant_form": "auto",
+            "show_quantity": true,
+            "show_offer_quantity": false,
+            "enable_payment_button": true,
+            "subscriptions_enable_selectors": false,
+            "show_remaining": false,
+            "show_remaining_style": "low",
+            "countdown": 10,
+            "info_page": ""
+          }
+        },
+        "3527e6c2-c383-4538-bf97-ab4340a8890e": {
+          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "credit-promotion-auto-size",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "light",
+            "topPadding": "0",
+            "bottomPadding": "0"
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "read_more": false,
+            "enable_description": true,
+            "icon_description": "",
+            "style": "accordions",
+            "title_1": "how to use",
+            "icon_name_1": "",
+            "raw_content_1": "<p>Bum + Body Cream was developed for all skin types. A little goes a long way when it comes to this cream, but how much you use will depend on whether you are spot treating irritated areas or using as a daily moisturizer. . <\/p><p>AS A SPOT TREATMENT: Apply a dime sized amount to problem areas in the morning and evening. You may experience instant results, but allow up to 2-weeks to see visible improvement in the health of your skin. <\/p><p>AS A DAILY MOISTURIZER: Post-shower, generously apply to your whole body for long-lasting hydration and healthy skin. <\/p>",
+            "title_2": "Your Solution For",
+            "icon_name_2": "",
+            "raw_content_2": "<p>Razor Burn<\/p><p>Bum Acne<\/p><p>Body Blemishes<\/p><p>Keratosis Pilaris<\/p><p>Folliculitis <\/p><p>Dry or Dull Skin <\/p><p>Eczema <\/p><p>Psoriasis <\/p><p>Fungal Infections <\/p><p><a href=\"\/pages\/science\" title=\"Our Science\">Learn How<\/a><\/p>",
+            "title_3": "Made Without",
+            "icon_name_3": "",
+            "raw_content_3": "<p>lab-made fragrances, parabens, sulfates, formaldehyde, phthalates, silicones, lanolin, petrolatum, propylene glycol, PEGs, gluten and more. Read our full <a href=\"https:\/\/miamibeachbum.com\/blogs\/behind-the-bum\/our-never-gonna-happen-list\"><span style=\"text-decoration:underline\">No List. <\/span><\/a><\/p>",
+            "title_4": "",
+            "icon_name_4": "",
+            "raw_content_4": "<p><\/p>",
+            "title_5": "",
+            "icon_name_5": "",
+            "raw_content_5": "<p><\/p>"
+          }
+        },
+        "sharing": {
+          "type": "sharing",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "8f9c8a4e-2eae-4bd3-830f-4b177e5c8031": {
+          "type": "upsell",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "form",
+        "3527e6c2-c383-4538-bf97-ab4340a8890e",
+        "pickup",
+        "description",
+        "sharing",
+        "8f9c8a4e-2eae-4bd3-830f-4b177e5c8031"
+      ],
+      "settings": {
+        "image_width": "wide",
+        "align": "left",
+        "product_breadcrumbs": false,
+        "enable_video_looping": true,
+        "zoom_enable": false,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "related": {
+      "type": "related",
+      "disabled": true,
+      "settings": {
+        "heading": "You might also like",
+        "bg": "palette--light bg--accent",
+        "grid": 3,
+        "related_products_enable": true,
+        "limit": 6,
+        "product_recommendations_heading": "Related products",
+        "show_recently_viewed": true,
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4,
+        "product_recently_heading": "Recently viewed"
+      }
+    },
+    "0ecf2c48-9a38-4ed7-a881-3c3cd68f90ca": {
+      "type": "product-ingredient",
+      "settings": {
+        "title": "KEY NATURAL INGREDIENTS",
+        "align_text": "text-center",
+        "text_size": 1,
+        "height": "margin--medium",
+        "width": "wrapper--full",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--accent"
+      }
+    },
+    "54ca738b-d962-4eaf-8f88-9ce3bafe8cbb": {
+      "type": "section-icons",
+      "blocks": {
+        "46dbbebb-6eb4-4380-ac7b-ee2f2219bf65": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/icon_vegan.png",
+            "icon_color": "#aaaaaa",
+            "title": "VEGAN",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "d64cb68b-e056-4f1d-8a95-ff4b8f84a9ff": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/icon_cruelty.png",
+            "icon_color": "#aaaaaa",
+            "title": "CRUELTY FREE",
+            "text": "<p><\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "3131ce5c-9078-4701-b9b7-32d75028de58": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/reef_icon_99ec6b26-5192-4db4-8f83-07c588218c52.png",
+            "icon_color": "#aaaaaa",
+            "title": "REEF SAFE",
+            "text": "<p><\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "b7a16c04-9024-4da6-80ff-1e95242237dc": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/icon_pcr.png",
+            "icon_color": "#aaaaaa",
+            "title": "PCR PLASTIC",
+            "text": "<p><\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "87814050-b379-4a28-9a37-3c9850539b2b": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/carbon_icon_8164573e-5fdd-441f-b5e8-0185914baeee.png",
+            "icon_color": "#aaaaaa",
+            "title": "CARBON NEUTRAL",
+            "text": "<p><\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "41f7b161-8b1f-4f4e-9ee3-cc57417c0871": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/giveback_icon_ba372525-d7ce-4837-a405-6a98fe6cc89a.png",
+            "icon_color": "#aaaaaa",
+            "title": "WE GIVE 1%",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "46dbbebb-6eb4-4380-ac7b-ee2f2219bf65",
+        "d64cb68b-e056-4f1d-8a95-ff4b8f84a9ff",
+        "3131ce5c-9078-4701-b9b7-32d75028de58",
+        "b7a16c04-9024-4da6-80ff-1e95242237dc",
+        "87814050-b379-4a28-9a37-3c9850539b2b",
+        "41f7b161-8b1f-4f4e-9ee3-cc57417c0871"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "icon_size": "icon--medium",
+        "icon_alignment": "icon--left",
+        "layout": "grid--stacked",
+        "align_text": "text-left"
+      }
+    },
+    "16512657271bf75790": {
+      "type": "apps",
+      "blocks": {
+        "78ac79c3-1a5d-4861-bb31-08572454c90e": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "78ac79c3-1a5d-4861-bb31-08572454c90e"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "height": "margin--medium",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "165126567912269ea2": {
+      "type": "apps",
+      "settings": {
+        "width": "wrapper",
+        "height": "margin--medium",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "disabled": true,
+      "settings": {
+        "product_reviews_enable": false,
+        "bg": "palette--light bg--accent"
+      }
+    },
+    "zp-product-footer-content": {
+      "type": "product-footer-content-zipifypages",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "zp-product-header-content",
+    "main",
+    "related",
+    "0ecf2c48-9a38-4ed7-a881-3c3cd68f90ca",
+    "54ca738b-d962-4eaf-8f88-9ce3bafe8cbb",
+    "16512657271bf75790",
+    "165126567912269ea2",
+    "reviews",
+    "zp-product-footer-content"
+  ]
+}

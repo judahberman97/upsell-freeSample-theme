@@ -1,0 +1,452 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "16589523737712ef52": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bbc_banner_desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/bbc_banner_mobile.jpg",
+        "bg_position": "center-center",
+        "height": "use_image",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "shopify:\/\/products\/trio",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "165895379249e63caf": {
+      "type": "section-logos",
+      "blocks": {
+        "1658953792d7ed1ef5-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/whealth.png",
+            "link": ""
+          }
+        },
+        "1658953792d7ed1ef5-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/byrdie-logo.webp",
+            "link": ""
+          }
+        },
+        "1658953792d7ed1ef5-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blackvogue_2.png",
+            "link": ""
+          }
+        },
+        "1658953792d7ed1ef5-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NewBeauty_Logo.png",
+            "link": ""
+          }
+        },
+        "1658953792d7ed1ef5-4": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blackharper_2.png",
+            "link": ""
+          }
+        },
+        "441a35fc-30a0-4521-8eb6-ec746170cf38": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/oprahlogo_5ef3de74-1a54-44f7-98a6-845f6b9a50c4.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1658953792d7ed1ef5-0",
+        "1658953792d7ed1ef5-1",
+        "1658953792d7ed1ef5-2",
+        "1658953792d7ed1ef5-3",
+        "1658953792d7ed1ef5-4",
+        "441a35fc-30a0-4521-8eb6-ec746170cf38"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--dark bg--invert"
+      }
+    },
+    "e25a7685-e5d7-4161-8fe3-d582d0336b26": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Asset_6_79715cae-49a2-4840-b329-085649f76d08.png",
+        "mobile_image": "shopify:\/\/shop_images\/Asset_7_5285f6ea-1c8c-4229-a1dd-5243f4387101.png",
+        "bg_position": "center-center",
+        "height": "use_image",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "73453d09-d86e-4080-9eb0-f97a964345a8": {
+      "type": "section-effect-gallery",
+      "blocks": {
+        "template--15452880928966__73453d09-d86e-4080-9eb0-f97a964345a8-1671648541d81ba643-0": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "template--15452880928966__73453d09-d86e-4080-9eb0-f97a964345a8-1671648541d81ba643-1": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "template--15452880928966__73453d09-d86e-4080-9eb0-f97a964345a8-1671648541d81ba643-2": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "172dcde6-0c29-4d41-996f-f669cb0a3cd3": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "af1f5c5c-6283-483e-aac1-36fb0c3c4b26": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15452880928966__73453d09-d86e-4080-9eb0-f97a964345a8-1671648541d81ba643-0",
+        "template--15452880928966__73453d09-d86e-4080-9eb0-f97a964345a8-1671648541d81ba643-1",
+        "template--15452880928966__73453d09-d86e-4080-9eb0-f97a964345a8-1671648541d81ba643-2",
+        "172dcde6-0c29-4d41-996f-f669cb0a3cd3",
+        "af1f5c5c-6283-483e-aac1-36fb0c3c4b26"
+      ],
+      "settings": {
+        "full_width": false,
+        "padding": true,
+        "scale_image": true,
+        "aspect_ratio": 1,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "89f93615-59fe-43ba-b618-be9ea3eaeb10": {
+      "type": "section-gallery",
+      "blocks": {
+        "template--15448405639366__89f93615-59fe-43ba-b618-be9ea3eaeb10-16712105044767a08e-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_9.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "template--15448405639366__89f93615-59fe-43ba-b618-be9ea3eaeb10-16712105044767a08e-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_12_be248f7c-7eef-4dab-b584-02f7967f6ff2.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "template--15448405639366__89f93615-59fe-43ba-b618-be9ea3eaeb10-16712105044767a08e-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_13_806932c2-1b6e-4262-962e-fec567eb2b98.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "4df2c858-270e-43cb-b8da-c6ff30b5311f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_14_732258fb-7d5e-4ea5-a2d1-d8804b6d8e71.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "fe3c2ba7-3c93-43d8-9f7a-8b7eedbf08f2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_15_4f46602f-73ef-4142-8e2d-cb4338c77e6d.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15448405639366__89f93615-59fe-43ba-b618-be9ea3eaeb10-16712105044767a08e-0",
+        "template--15448405639366__89f93615-59fe-43ba-b618-be9ea3eaeb10-16712105044767a08e-1",
+        "template--15448405639366__89f93615-59fe-43ba-b618-be9ea3eaeb10-16712105044767a08e-2",
+        "4df2c858-270e-43cb-b8da-c6ff30b5311f",
+        "fe3c2ba7-3c93-43d8-9f7a-8b7eedbf08f2"
+      ],
+      "settings": {
+        "full_width": false,
+        "padding": false,
+        "scale_image": false,
+        "aspect_ratio": 0.5,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "f8a21b55-6678-4df5-88c6-948fced03e5c": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--15448405639366__f8a21b55-6678-4df5-88c6-948fced03e5c-16711243104b20fbaa-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>3 plant based scents, 1 effective formula <\/p>",
+            "text_size": 8
+          }
+        }
+      },
+      "block_order": [
+        "template--15448405639366__f8a21b55-6678-4df5-88c6-948fced03e5c-16711243104b20fbaa-1"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "bg": "palette--light bg--accent"
+      }
+    },
+    "f04fc264-12c5-43ee-a590-b7605f73f3e7": {
+      "type": "section-collection",
+      "settings": {
+        "title": "",
+        "collection": "bum-body",
+        "grid": 4,
+        "rows": 1,
+        "bg": "palette--light bg--accent",
+        "show_view_all": false
+      }
+    },
+    "5bb3e2ac-8e7d-41b2-ba47-0ce2fcbb727c": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--15448405639366__5bb3e2ac-8e7d-41b2-ba47-0ce2fcbb727c-1671124593b1b2aa5f-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>1000+ 5 Star Reviews <\/p>",
+            "text_size": 8
+          }
+        }
+      },
+      "block_order": [
+        "template--15448405639366__5bb3e2ac-8e7d-41b2-ba47-0ce2fcbb727c-1671124593b1b2aa5f-1"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "165975412775b28016": {
+      "type": "section-columns",
+      "blocks": {
+        "1659754127379d002b-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/BAblock_C.jpg",
+            "bg_position": "center-center",
+            "title": "-Amy B",
+            "text": "<p>\"I love everything about this body cream. The natural ingredients, smell and how quickly it clears my skin.\"<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "custom_video_link": ""
+          }
+        },
+        "1659754127379d002b-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/BAblock_B.jpg",
+            "bg_position": "center-center",
+            "title": "-Elizabeth C",
+            "text": "<p>\"BEST BODY CREAM EVER. Has made every bump on my body dissapear after just a few uses. 10\/10! \" <\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "custom_video_link": ""
+          }
+        },
+        "1659754127379d002b-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/BAblock_A.jpg",
+            "bg_position": "center-center",
+            "title": "-Chelsea P",
+            "text": "<p>\"Truly miraculous. Anywhere you have body breakouts will be smooth and clear after using this a few times.\"<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "custom_video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1659754127379d002b-0",
+        "1659754127379d002b-1",
+        "1659754127379d002b-2"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "aspect_ratio": 1
+      }
+    },
+    "1659371077949b460d": {
+      "type": "section-icons",
+      "blocks": {
+        "1659371076746ebe26-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_alt": "shopify:\/\/shop_images\/icon_vegan.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>vegan<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "1659371076746ebe26-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shipment-world",
+            "icon_alt": "shopify:\/\/shop_images\/icon_cruelty.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>cruelty free<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "1659371076746ebe26-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-phone",
+            "icon_alt": "shopify:\/\/shop_images\/icon_pcr.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>PCR plastic <\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "3354f39d-1e0b-481f-9cef-f6d19fd1188f": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/reef_icon_99ec6b26-5192-4db4-8f83-07c588218c52.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>reef safe <\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "1eeaa6de-355a-4bbb-bb56-63d6f8105859": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/carbon_icon_8164573e-5fdd-441f-b5e8-0185914baeee.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>carbon neutral <\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "f696db9c-6e81-4e28-9d67-3e0146062fac": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/giveback_icon_ba372525-d7ce-4837-a405-6a98fe6cc89a.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>we give back <\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1659371076746ebe26-0",
+        "1659371076746ebe26-1",
+        "1659371076746ebe26-2",
+        "3354f39d-1e0b-481f-9cef-f6d19fd1188f",
+        "1eeaa6de-355a-4bbb-bb56-63d6f8105859",
+        "f696db9c-6e81-4e28-9d67-3e0146062fac"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "icon_size": "icon--large",
+        "icon_alignment": "icon--left",
+        "layout": "grid--stacked",
+        "align_text": "text-center"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16589523737712ef52",
+    "165895379249e63caf",
+    "e25a7685-e5d7-4161-8fe3-d582d0336b26",
+    "73453d09-d86e-4080-9eb0-f97a964345a8",
+    "89f93615-59fe-43ba-b618-be9ea3eaeb10",
+    "f8a21b55-6678-4df5-88c6-948fced03e5c",
+    "f04fc264-12c5-43ee-a590-b7605f73f3e7",
+    "5bb3e2ac-8e7d-41b2-ba47-0ce2fcbb727c",
+    "165975412775b28016",
+    "1659371077949b460d"
+  ]
+}

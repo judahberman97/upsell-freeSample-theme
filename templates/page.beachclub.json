@@ -1,0 +1,230 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": false,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "165161622326add1cf": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/desktop_beachclub.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/mobile_beachclub.jpg",
+        "bg_position": "center-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "https:\/\/miamibeachbum.com\/pages\/beachclub\/#smile-home",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "165161652392738e1e": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/how_ways.png",
+        "mobile_image": "shopify:\/\/shop_images\/mobile_how_ways.png",
+        "bg_position": "center-center",
+        "height": "use_image",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "https:\/\/miamibeachbum.com\/account\/login?return_url=%2Faccount",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "1651170883155fd034": {
+      "type": "section-double",
+      "blocks": {
+        "165117088376424403-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_2_300x_e8f7982d-04c4-4686-a11c-1b0f770b223b.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "Shop Now",
+            "link": "shopify:\/\/collections\/shop-all",
+            "button_color": "btn--primary",
+            "button_style": "btn uppercase"
+          }
+        },
+        "165117088376424403-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "Redeem Points",
+            "title": "",
+            "text": "<p>100 points = $10 off <\/p><p>200 points = $15 off <\/p><p>400 points = $20 off <\/p><p>500 points = $25 off<\/p><p>750 points = Free Organic Terry Sweater<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--primary",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "165117088376424403-1",
+        "165117088376424403-0"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "16511708948ff4a47e": {
+      "type": "section-double",
+      "blocks": {
+        "16511708945be38ce5-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "Refer A Friend",
+            "title": "GIVE $10, GET $10",
+            "text": "<p>Give your friends $10 off their first order and get a $10 discount for each successful referral.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "16511708945be38ce5-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_1_300x_112b92ec-1ca9-4f8f-b81a-7eba3e9a6ef2.png",
+            "bg_position": "center-bottom",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "Refer a Friend",
+            "link": "https:\/\/miamibeachbum.com\/pages\/beachclub\/#smile-home",
+            "button_color": "btn--primary",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "16511708945be38ce5-0",
+        "16511708945be38ce5-1"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "1651171254dceb3e26": {
+      "type": "section-faq",
+      "blocks": {
+        "1651171254f14a4871-0": {
+          "type": "text",
+          "settings": {
+            "title": "How Do I Join the beach club?",
+            "content": "<p>Click the Sign Up button at the top of this page to get started. You will then be prompted to login to your Miami Beach Bum Account or create an Account if you don't already have one.<\/p>"
+          }
+        },
+        "2dbeac90-7bac-4358-8ff7-34b0f1f76f72": {
+          "type": "text",
+          "settings": {
+            "title": "Do I need an account to earn rewards?",
+            "content": "<p>Yes, you need an account to join the Beach Club and start earning rewards. Without an account, points will not accumulate. <\/p>"
+          }
+        },
+        "1651171254f14a4871-1": {
+          "type": "text",
+          "settings": {
+            "title": "How do I check my points balance?",
+            "content": "<p>Click '<a href=\"https:\/\/miamibeachbum.com\/#smile-home\" target=\"_blank\" title=\"https:\/\/miamibeachbum.com\/#smile-home\">My Rewards<\/a>' (this can also be found on the website footer). The rewards widget will appear and you can access all necessary information. <\/p>"
+          }
+        },
+        "1651171254f14a4871-2": {
+          "type": "text",
+          "settings": {
+            "title": "Can I combine points with an additional discount code?",
+            "content": "<p>Sorry, no— only one discount or promotion can be used at checkout. <\/p><p><\/p>"
+          }
+        },
+        "6da22fc1-00b5-4fbe-9c70-7869fea83a09": {
+          "type": "text",
+          "settings": {
+            "title": "Why am I not seeing my reward from a successful referral?",
+            "content": "<p>A few things to note: 1) Your friend MUST purchase directly through your personal referral link for it to be deemed a successful referral. 2) Your friend must be a first-time purchaser in order for it to be deemed a successful referral. 3) The email notifications that notify you of a successful referral may take up to one hour to appear in your inbox.<\/p>"
+          }
+        },
+        "ae24a672-0b30-4774-9d62-e9a956be21d0": {
+          "type": "text",
+          "settings": {
+            "title": "What if I have questions about my rewards?",
+            "content": "<p>Contact us <a href=\"\/pages\/contact-us\" target=\"_blank\" title=\"Contact Us\">here <\/a>and we'll get you the answers asap.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1651171254f14a4871-0",
+        "2dbeac90-7bac-4358-8ff7-34b0f1f76f72",
+        "1651171254f14a4871-1",
+        "1651171254f14a4871-2",
+        "6da22fc1-00b5-4fbe-9c70-7869fea83a09",
+        "ae24a672-0b30-4774-9d62-e9a956be21d0"
+      ],
+      "settings": {
+        "title": "FAQ",
+        "align_text": "text-left",
+        "text_size": 1,
+        "height": "margin--medium",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165161622326add1cf",
+    "165161652392738e1e",
+    "1651170883155fd034",
+    "16511708948ff4a47e",
+    "1651171254dceb3e26"
+  ]
+}

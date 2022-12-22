@@ -1,0 +1,33 @@
+<section class="foursixty-section">
+  {% if section.settings.title != blank %}
+    <header>
+    <h2 class="home__subtitle">{{ section.settings.title | escape }}</h2>
+    </header>
+  {% endif %}
+  
+<script type="lazyload2" data-src="//foursixty.com/media/scripts/fs.slider.v2.5.js" data-defer-image-loading="false" data-feed-id="miami-beach-bum" data-theme="slider_v2_5" data-open-links-in-same-page="true" data-cell-size="20%"></script>
+<style>.fs-has-links { display:none; } .fs-wrapper { height:auto; } .fs-slider_v2_5  .fs-entry-container { height:0 !important;width:20%!important;padding-top:20%!important; } .fs-wrapper div.fs-text-container .fs-entry-title, div.fs-detail-title { font-family:Montserrat;font-style:normal;font-weight:normal;font-size:14px; } div.fs-text-container .fs-entry-date, div.fs-detail-container .fs-post-info, div.fs-wrapper div.fs-has-links::after, .fs-text-product, .fs-overlink-text { font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-style:normal;font-weight:normal;font-size:14px; } .fs-wrapper div.fs-text-container * { color:#ffffff; } .fs-wrapper div.fs-text-container { background-color:rgba(0, 0, 0, 0.8);margin:0px; } div.fs-entry-date { display:none; } div.fs-entry-title { display:none; } .fs-slider_v2_5 .fs-wrapper div.fs-timeline-entry { margin:1px; } 
+ 
+.fs-post-info { font-size: 12px !important; }
+.fs-post-info a, .fs-service-username, .fs-slashes, .fs-detail-date {  text-transform: lowercase; color: #000 !important; }
+.foursixty-section { padding-top: 36px; text-align: center; }
+.fs-slider-next-button .fs-arrow, .fs-slider-prev-button .fs-arrow { stroke: #000; stroke-width: 3px; }
+.fs-detail-shares { display: none }
+/* extra space for additional CSS */
+
+@media only screen and (max-width: 768px) {
+        .fs-wrapper div.fs-entry-container { height: 0; width: 50% !important; padding-top: 50% !important; } }
+</style>
+</section>
+{% schema %}
+  {
+    "name": "Foursixty",
+    "settings": [
+        { "type": "text", "id": "title", "default": "@miamibeachbum", "label": "Title" }
+    ],
+    "presets": [{
+        "name": "Foursixty Front Page Gallery",
+        "category": "Foursixty"
+    }]
+  }
+{% endschema %}

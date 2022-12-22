@@ -1,0 +1,326 @@
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/genwinter_desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/genwinter_mobile.jpg",
+        "bg_position": "center-center",
+        "height": "use_image",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "shopify:\/\/collections\/shop-all",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "tabs": {
+      "type": "section-collection-tabs",
+      "blocks": {
+        "5516b57b-1a12-4f1f-9401-505ae0df613e": {
+          "type": "collection",
+          "settings": {
+            "collection": "sets",
+            "title": "Holiday Sets"
+          }
+        },
+        "tab-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "shop-all",
+            "title": "BEST SELLERS"
+          }
+        }
+      },
+      "block_order": [
+        "5516b57b-1a12-4f1f-9401-505ae0df613e",
+        "tab-0"
+      ],
+      "settings": {
+        "title": "",
+        "grid": 4,
+        "limit": 6,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "16511809502de6ac01": {
+      "type": "section-custom-content",
+      "blocks": {
+        "0a898e0e-f713-4223-8456-83cd3e79515e": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Paradise for your skin and hair.",
+            "text": "<p>A feel-good collection of clean formulas that restore your skin and hair health. In the bath or on the beach—escape to Miami with us. <\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#f4efe8"
+          }
+        }
+      },
+      "block_order": [
+        "0a898e0e-f713-4223-8456-83cd3e79515e"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "165972007189c59a9e": {
+      "type": "section-collection",
+      "settings": {
+        "title": "reef-safe mineral suncare",
+        "collection": "suncare",
+        "grid": 4,
+        "rows": 1,
+        "bg": "palette--light bg--neutral",
+        "show_view_all": false
+      }
+    },
+    "1651778719f15059f8": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/marineinspired.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/marineinspired.jpg",
+        "bg_position": "center-center",
+        "height": "use_image",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "Marine-Inspired",
+        "richtext": "<p><\/p>",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "Our Story",
+        "link": "shopify:\/\/pages\/our-story",
+        "button_color": "btn--white",
+        "button_style": "btn--outline"
+      }
+    },
+    "logos": {
+      "type": "section-logos",
+      "blocks": {
+        "logo-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blackvogue.png",
+            "link": ""
+          }
+        },
+        "logo-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/newbeauty.png",
+            "link": ""
+          }
+        },
+        "logo-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/whealth.png",
+            "link": ""
+          }
+        },
+        "logo-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blackharper.png",
+            "link": ""
+          }
+        },
+        "d8631dc8-f187-4a6a-afca-a61f6ac9b243": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/oprahlogo.png",
+            "link": ""
+          }
+        },
+        "bd8d7f7d-f20d-4522-966e-d52849d251a2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/byrdielogo.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo-1",
+        "logo-3",
+        "logo-0",
+        "logo-2",
+        "d8631dc8-f187-4a6a-afca-a61f6ac9b243",
+        "bd8d7f7d-f20d-4522-966e-d52849d251a2"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--dark bg--invert"
+      }
+    },
+    "1658787331de3d32c4": {
+      "type": "section-collection-grid",
+      "blocks": {
+        "16587873311f59b6e2-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "beach",
+            "title": "Beach Collection",
+            "link_text": "shop now",
+            "image": "shopify:\/\/shop_images\/booty_sq_1.jpg",
+            "bg_position": "center-top",
+            "button_link": ""
+          }
+        },
+        "16587873311f59b6e2-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bath",
+            "title": "Bath Collection",
+            "link_text": "Shop now",
+            "image": "shopify:\/\/shop_images\/genevaboyett_2_6.jpg",
+            "bg_position": "center-center",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16587873311f59b6e2-0",
+        "16587873311f59b6e2-1"
+      ],
+      "settings": {
+        "title": "",
+        "grid": 2,
+        "bg": "palette--light bg--neutral",
+        "text_color": "text--white",
+        "button_style": "btn--outline",
+        "button_color": "btn--white",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "aspect_ratio": 0.9
+      }
+    },
+    "1658787266b07a8cb9": {
+      "type": "section-icons",
+      "blocks": {
+        "16587872661d556265-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_alt": "shopify:\/\/shop_images\/tealicons-05.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>vegan<\/p>",
+            "link_text": "",
+            "link_url": "shopify:\/\/blogs\/behind-the-bum\/microbiome-friendly-formulas"
+          }
+        },
+        "16587872661d556265-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shipment-world",
+            "icon_alt": "shopify:\/\/shop_images\/tealicons-01.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>cruelty-free<\/p>",
+            "link_text": "",
+            "link_url": "shopify:\/\/blogs\/behind-the-bum\/our-never-gonna-happen-list"
+          }
+        },
+        "16587872661d556265-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-phone",
+            "icon_alt": "shopify:\/\/shop_images\/tealicons-07.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p> pcr packaging<\/p>",
+            "link_text": "",
+            "link_url": "shopify:\/\/blogs\/behind-the-bum\/packaging-with-a-purpose-why-we-chose-pcr-plastic-over-glass"
+          }
+        },
+        "9727b4d4-ae08-42b2-b1cf-16f1d7ded813": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/tealicons-03.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>reef-safe<\/p>",
+            "link_text": "",
+            "link_url": "shopify:\/\/blogs\/behind-the-bum\/our-eco-connection"
+          }
+        },
+        "00654d54-b99d-4845-b7bc-eb9c967a04aa": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/tealicons-04.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>carbon neutral<\/p>",
+            "link_text": "",
+            "link_url": "shopify:\/\/blogs\/behind-the-bum\/carbon-neutral"
+          }
+        },
+        "bf479e90-34ef-4fdf-ac25-47c6e899df2d": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/tealicons-08.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>gives back 1%<\/p>",
+            "link_text": "",
+            "link_url": "shopify:\/\/blogs\/behind-the-bum\/the-why-behind-our-giving"
+          }
+        }
+      },
+      "block_order": [
+        "16587872661d556265-0",
+        "16587872661d556265-1",
+        "16587872661d556265-2",
+        "9727b4d4-ae08-42b2-b1cf-16f1d7ded813",
+        "00654d54-b99d-4845-b7bc-eb9c967a04aa",
+        "bf479e90-34ef-4fdf-ac25-47c6e899df2d"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "icon_size": "icon--large",
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-center"
+      }
+    },
+    "1651693225e2268828": {
+      "type": "foursixty-fp",
+      "settings": {
+        "title": ""
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "tabs",
+    "16511809502de6ac01",
+    "165972007189c59a9e",
+    "1651778719f15059f8",
+    "logos",
+    "1658787331de3d32c4",
+    "1658787266b07a8cb9",
+    "1651693225e2268828"
+  ]
+}

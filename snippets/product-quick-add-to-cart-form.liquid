@@ -1,0 +1,30 @@
+{%- assign current_variant = product.selected_or_first_available_variant -%}
+
+<product-quick-add-to-cart-form data-add-action-wrapper>
+  <div class="product__form__outer {{ buybutton_class }}" data-quick-add-to-cart-holder {{ block.shopify_attributes }}>
+    <div data-add-action-wrapper>
+      {%- form 'product', product -%}
+        <input type="hidden" name="id" value="{{ current_variant.id }}">
+        
+        <button 
+          data-add-to-cart
+          data-add-to-cart-variant="{{ current_variant.id }}" 
+          class="upsell__btn uppercase btn--soft btn--small btn--primary
+          {% unless current_variant.available %} is-hidden {% endunless %}"> 
+          <span class="btn-state-ready">{{ 'products.general.upsell_add_to_cart' | t }}</span>
+
+          <span class="btn-state-loading">
+            <svg height="18" width="18" class="svg-loader">
+              <circle r="7" cx="9" cy="9" />
+              <circle stroke-dasharray="87.96459430051421 87.96459430051421" r="7" cx="9" cy="9" />
+            </svg>
+          </span>
+
+          <span class="btn-state-complete">&nbsp;</span>
+        </button>
+
+        <p class="upsell__out-of-stock {% if current_variant.available %} is-hidden{% endif %}">{{ 'products.general.upsell_out_of_stock' | t }}</p>
+      {%- endform -%}
+    </div>
+  </div>
+</product-quick-add-to-cart-form>

@@ -1,0 +1,19 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "settings": {
+        "blog_show_meta": false,
+        "tags": true,
+        "social": true,
+        "image_height": "use_screen_one_half",
+        "bg_position": "center-center",
+        "sidebar_tags": false,
+        "recent": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

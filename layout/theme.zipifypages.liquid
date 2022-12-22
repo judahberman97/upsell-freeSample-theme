@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="{{ request.locale.iso_code }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% render 'header-scripts.zipifypages', renderctx: 'lsctn' %}{{ content_for_header }}
+  <!-- GSSTART Coming Soon code start. Do not change -->
+<script type="text/javascript"> gsProductByVariant = {}; {% if product.id > 1 %}{% for variant in product.variants %} gsProductByVariant[{{variant.id}}] = {% if variant.available %} 1 {% else %} 0 {% endif %}; {% endfor %}{% endif %}  gsProductCSID = "{{ product.id }}"; gsDefaultV = "{{ product.selected_or_first_available_variant.id }}"; </script><script  type="text/javascript" src="https://gravity-software.com/js/shopify/pac_shop36951.js?v=86a53d53fc7d4b352b422ac6c01a7ad2"></script>
+<!-- Coming Soon code end. Do not change GSEND --></head>
+  <body>
+    {{ content_for_layout }}
+    {% render 'page-footer.zipifypages', renderctx: 'lsctn' %}
+  </body>
+</html>

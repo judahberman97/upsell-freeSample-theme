@@ -1,0 +1,21 @@
+{
+  "sections": {
+    "main": {
+      "type": "blog",
+      "settings": {
+        "layout": "grid",
+        "blog_show_meta": false,
+        "image": "shopify:\/\/shop_images\/Asset_8_300x_39769ba0-e4ce-45dd-ae15-a4cd3ef385f2.png",
+        "bg_position": "center-center",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "image_height": "use_screen_one_half",
+        "text_color": "text--white",
+        "tags": true
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

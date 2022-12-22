@@ -1,0 +1,270 @@
+
+<section class="section-product-ingredients {{ section.settings.text_color }} {{ section.settings.height }} {{ section.settings.bg }}" data-section-id="{{ section.id }}" data-section-type="product-ingredients">
+  <div class="{{ section.settings.width }}">
+    <div class="text__standard {{ section.settings.align_text }}">
+      {% if section.settings.title != blank %}
+        <h3 class="standard__kicker">
+          {{ section.settings.title }}
+        </h3>
+      {% endif %}
+
+      {% assign font_size_class = section.settings.text_size | plus: 1 | prepend: 'font--' %}
+
+      {% if product.metafields.ingredient.title != blank %}
+        <div class="ingredients--wrapper">
+          {% for title in product.metafields.ingredient.title limit: 4 %}
+            {% assign description = product.metafields.ingredient.description[forloop.index0] %}
+            {% assign image = product.metafields.ingredient.image[forloop.index0] %}
+            {% assign bg_color = product.metafields.ingredient.bg_color[forloop.index0] %}
+            
+            <div class="ingredient">
+              <div class="image--wrapper" style="{% if bg_color %}background-color:{{ bg_color }};{% endif %}">
+                {% if image %}
+                  <img src="{{ image }}">
+                {% endif %}
+              </div>
+              <div class="ingredient-container standard__rte {{ font_size_class }}">
+                <h4>{{ title }}</h4>
+                <p class="ingredient-description">{{ description }}</p>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+        <div class="other-ingredients-wrapper">
+          <div class="ingredients--wrapper ">
+            {% for title in product.metafields.ingredient.title offset: 4 %}
+              {% assign description = product.metafields.ingredient.description[forloop.index0] %}
+              {% assign image = product.metafields.ingredient.image[forloop.index0] %}
+              {% assign bg_color = product.metafields.ingredient.bg_color[forloop.index0] %}
+              
+              <div class="ingredient">
+                <div class="image--wrapper" style="{% if bg_color %}background-color:{{ bg_color }};{% endif %}">
+                  {% if image %}
+                    <img src="{{ image }}">
+                  {% endif %}
+                </div>
+                <div class="ingredient-container standard__rte {{ font_size_class }}">
+                  <h4>{{ title }}</h4>
+                  <p class="ingredient-description">{{ description }}</p>
+                </div>
+              </div>
+            {% endfor %}
+          </div>  
+            
+          {% if product.metafields.mbb.all-ingredients %}
+            <div class="all-ingredients-wrapper">
+              {{ product.metafields.mbb.all-ingredients }}
+            </div>
+          {% endif %}
+        </div>
+
+        <div class="ingredients--footer">
+          <a href="javascript:void(0);" class="all-ingredients-button">Read Full Ingredient List</a>
+        </div>        
+      {% endif %}        
+    </div>
+  </div>
+</section>
+
+<script>  
+  document.querySelector('.section-product-ingredients .all-ingredients-button').addEventListener('click', function(e){
+    if (document.querySelector('.section-product-ingredients .other-ingredients-wrapper')) {
+      document.querySelector('.section-product-ingredients .other-ingredients-wrapper').classList.toggle('max-height');
+      document.querySelector('.section-product-ingredients .all-ingredients-button').classList.toggle('expanded');
+    }
+  });
+</script>
+
+<style>
+  .ingredients--wrapper {
+    margin: 30px 0;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .other-ingredients-wrapper {
+    max-height: 0;
+    overflow-y: hidden;
+    -webkit-transition: max-height 1s; 
+    -moz-transition: max-height 1s; 
+    -ms-transition: max-height 1s; 
+    -o-transition: max-height 1s; 
+    transition: max-height 1s;  
+  }
+  .other-ingredients-wrapper.max-height {
+    max-height: 9999px;
+  }
+  .section-product-ingredients .other-ingredients-wrapper .ingredients--wrapper {
+    margin: 0;
+  }
+  .all-ingredients-wrapper {
+    margin: 30px 0 !important;
+  }
+  .ingredients--wrapper .image--wrapper {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+  }
+  .ingredients--wrapper .image--wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .ingredient {
+    max-width: calc(25% - 23px);
+  }
+  .ingredient-container {
+    background: #fff;
+    padding: 20px;
+  }
+  .all-ingredients-button svg {
+    margin-left: 10px;
+  }
+  .ingredients--wrapper:after {
+    content: '';
+  }
+  .all-ingredients-button {
+    position: relative;
+    display: inline-block;
+    padding-right: 20px;
+  }
+  .all-ingredients-button:before {
+    content: "";
+    width: 14px;
+    height: 0px;
+    border-bottom: solid 2px var(--text);
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+  }
+  .all-ingredients-button:after {
+    content: "";
+    width: 1px;
+    height: 14px;
+    border-left: solid 2px var(--text);
+    display: block;
+    position: absolute;
+    right: 6px;
+    top: 4px;
+  }
+  .all-ingredients-button.expanded:after {
+    display: none;
+  }
+  @media screen and (max-width: 767px) {
+    .ingredients--wrapper {
+      gap: 15px; 
+      display: block;
+    }
+    .ingredient {
+      max-width: 100%;
+      width: 70%;
+      margin-right: 15px;
+    }
+    .ingredient:last-child {
+      margin-right: 0;
+    }
+    .ingredients--wrapper:after {
+      content: 'flickity';
+      display: none;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Product Ingredients",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "select",
+      "id": "align_text",
+      "label": "Title alignment",
+      "default": "text-left",
+      "options": [
+        { "value": "text-left","label": "Left" },
+        { "value": "text-center","label": "Centered" },
+        { "value": "text-right","label": "Right" }
+      ]
+    },
+    {
+      "type":  "range",
+      "id":    "text_size",
+      "label": "Text size",
+      "min":    1,
+      "max":    5,
+      "step":   1,
+      "default":1
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "select",
+      "id": "height",
+      "label": "Height",
+      "default": "margin--medium",
+      "options": [
+        { "value": "margin--large", "label": "Large" },
+        { "value": "margin--medium", "label": "Medium" },
+        { "value": "margin--small", "label": "Small" },
+        { "value": "margin--zero", "label": "Natural" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "wrapper--narrow",
+      "options": [
+        { "value": "wrapper--narrow", "label": "Narrow" },
+        { "value": "wrapper", "label": "Wide" },
+        { "value": "wrapper--full", "label": "Full width" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "text--neutral",
+      "options": [
+        { "value": "text--neutral", "label": "Normal text"},
+        { "value": "text--white", "label": "White"},
+        { "value": "text--primary", "label": "Primary accent"},
+        { "value": "text--secondary", "label": "Secondary accent"},
+        { "value": "text--black", "label": "Black"},
+        { "value": "text--invert--primary", "label": "Primary dark accent"},
+        { "value": "text--invert--secondary", "label": "Secondary dark accent"},
+        { "value": "text--invert", "label": "Inverted text color"}
+      ]
+    },
+    {
+      "type": "select",
+      "id": "bg",
+      "label": "Background color",
+      "default": "palette--light bg--neutral",
+      "options": [
+        { "value": "palette--light bg--neutral", "label": "Default"},
+        { "value": "palette--light bg--accent", "label": "Light"},
+        { "value": "palette--dark bg--invert", "label": "Dark"},
+        { "value": "palette--dark bg--invert--accent", "label": "Dark accent"}
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product ingredient",
+      "category": "product"      
+    }
+  ]
+}
+{% endschema %}

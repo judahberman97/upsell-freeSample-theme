@@ -1,0 +1,123 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "165154294395ecb4b1": {
+      "type": "section-double",
+      "blocks": {
+        "1651542943494c59a3-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "Contact us",
+            "title": "",
+            "text": "<p><strong>Customer Service Hours<\/strong><\/p><p>Monday - Friday: 10am to 4pm @ 305.399.7580<\/p><p><strong>General & Order Inquiries<\/strong><\/p><p><a href=\"mailto:help@miamibeachbum.com\" target=\"_blank\" title=\"mailto:help@miamibeachbum.com\"><em>help@miamibeachbum.com<\/em><\/a><\/p><p><strong>Press & Influencer Requests<\/strong><\/p><p><a href=\"mailto:pr@miamibeachbum.com\" target=\"_blank\" title=\"mailto:pr@miamibeachbum.com\"><em>pr@miamibeachbum.com<\/em><\/a><\/p><p><strong>Wholesale Partnerships<\/strong><\/p><p><a href=\"mailto:wholesale@miamibeachbum.com\" target=\"_blank\" title=\"mailto:wholesale@miamibeachbum.com\"><em>wholesale@miamibeachbum.com<\/em><\/a><\/p>",
+            "text_size": 1,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "1651542943494c59a3-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-05-02_at_9.57.49_PM.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "1651542943494c59a3-0",
+        "1651542943494c59a3-1"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "1651543105f6dd5def": {
+      "type": "section-double",
+      "blocks": {
+        "1651543105e5b942e1-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_1_300x_61d819eb-5182-411a-82a9-b466fd9c03bc.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "1651543105e5b942e1-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "IRL",
+            "title": "",
+            "text": "<p>1201 20th St. Miami Beach, FL 33139<\/p><p><strong>HOURS<\/strong><\/p><p>Monday - Thursday: 10am - 4pm<br\/>Friday - Sunday: Closed<\/p><p><strong>CONTACT<\/strong><\/p><p>(305) 399-7580<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "1651543105e5b942e1-1",
+        "1651543105e5b942e1-0"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165154294395ecb4b1",
+    "1651543105f6dd5def"
+  ]
+}

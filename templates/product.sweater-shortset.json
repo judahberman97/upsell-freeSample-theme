@@ -1,0 +1,165 @@
+{
+  "sections": {
+    "zp-product-header-content": {
+      "type": "product-header-content-zipifypages",
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "product_show_vendor": false,
+            "show_rating": true,
+            "show_rating_count": false
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "variant_form": "auto",
+            "show_quantity": true,
+            "enable_payment_button": false,
+            "subscriptions_enable_selectors": true,
+            "show_remaining": false,
+            "show_remaining_style": "low",
+            "countdown": 10,
+            "info_page": ""
+          }
+        },
+        "e10b7d26-2914-4e0c-88c1-22f74702b506": {
+          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "credit-promotion-auto-size",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "light",
+            "topPadding": "0",
+            "bottomPadding": "0"
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "read_more": false,
+            "enable_description": true,
+            "icon_description": "",
+            "style": "accordions",
+            "title_1": "size & fit",
+            "icon_name_1": "",
+            "raw_content_1": "<p><strong>Tops<\/strong><\/p><p>S: 2-4<br\/>M: 6-8<br\/>L: 10-12<br\/>XL: 12-14<\/p><p><strong>Bottoms<\/strong><\/p><p>S: 24-26<br\/>M: 27-28<br\/>L: 29-30<br\/>XL: 31-33<\/p>",
+            "title_2": "",
+            "icon_name_2": "",
+            "raw_content_2": "",
+            "title_3": "",
+            "icon_name_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "icon_name_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "icon_name_5": "",
+            "raw_content_5": ""
+          }
+        },
+        "sharing": {
+          "type": "sharing",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "form",
+        "e10b7d26-2914-4e0c-88c1-22f74702b506",
+        "pickup",
+        "description",
+        "sharing"
+      ],
+      "settings": {
+        "image_width": "wide",
+        "align": "left",
+        "product_breadcrumbs": false,
+        "enable_video_looping": true,
+        "zoom_enable": false,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "related": {
+      "type": "related",
+      "settings": {
+        "heading": "You might also like",
+        "bg": "palette--light bg--accent",
+        "grid": 3,
+        "related_products_enable": true,
+        "limit": 6,
+        "product_recommendations_heading": "Related products",
+        "show_recently_viewed": true,
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4,
+        "product_recently_heading": "Recently viewed"
+      }
+    },
+    "16512657271bf75790": {
+      "type": "apps",
+      "blocks": {
+        "78ac79c3-1a5d-4861-bb31-08572454c90e": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "78ac79c3-1a5d-4861-bb31-08572454c90e"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "height": "margin--medium",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "165126567912269ea2": {
+      "type": "apps",
+      "settings": {
+        "width": "wrapper",
+        "height": "margin--medium",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "disabled": true,
+      "settings": {
+        "product_reviews_enable": false,
+        "bg": "palette--light bg--accent"
+      }
+    },
+    "zp-product-footer-content": {
+      "type": "product-footer-content-zipifypages",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "zp-product-header-content",
+    "main",
+    "related",
+    "16512657271bf75790",
+    "165126567912269ea2",
+    "reviews",
+    "zp-product-footer-content"
+  ]
+}
